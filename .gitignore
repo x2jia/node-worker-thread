@@ -1,0 +1,19 @@
+# various stuff that VC++ produces/uses
+Debug/
+Release/
+build/
+!doc/blog/**
+*.sln
+!nodemsi.sln
+*.suo
+*.vcproj
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+UpgradeLog*.XML
+_UpgradeReport_Files/
+.git
+node_modules
+.DS_Store
+*.pdb
+*.obj

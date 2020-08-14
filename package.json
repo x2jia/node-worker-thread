@@ -1,0 +1,37 @@
+{
+  "name": "worker-thread2",
+  "version": "3.0.8",
+  "description": "A framework let node support multi threads",
+  "homepage": "https://github.com/x2jia/node-worker-thread",
+  "license": "Apache-2.0",
+  "main": "index",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "engines": {
+    "node": ">= 14.0.0"
+  },
+  "cpu": [
+    "!arm",
+    "!mips"
+  ],
+  "dependencies": {
+    "bluebird": "^3.5.5"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "thread",
+    "cpu-intensive"
+  ],
+  "author": {
+    "name": "YouJia",
+    "email": "classfellow@qq.com"
+  },
+  "contributors": [
+    {
+      "name": "YouJia",
+      "email": "classfellow@qq.com"
+    }
+  ],
+  "gypfile": true
+}
